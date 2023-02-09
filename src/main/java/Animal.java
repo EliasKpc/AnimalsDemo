@@ -73,6 +73,13 @@ public class Animal {
         }
         return false;
     }
+
+    public boolean validateLength(){
+        if(animalLoud.length() >= 8){
+            return true;
+        }
+        return false;
+    }
 }
 
 
